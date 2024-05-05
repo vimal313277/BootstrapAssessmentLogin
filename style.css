@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-cntenr {
+  background-color: #ecf0f3;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sec-main {
+  background-color: #ecf0f3;
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  padding: 40px 30px 30px 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7,
+    -8px -8px 15px #fff;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+  color: black;
+}
+
+.unm {
+  width: 90%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #666;
+  padding: 10px 15px 10px 10px;
+}
+
+.input-group {
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.btn {
+  background-color: #03a9f4;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.text-center a {
+  text-decoration: none;
+  color: #03a9f4;
+}
+
+.fso {
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .sec-main {
+    background-color: #ecf0f3;
+    width: 300px;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    padding: 20px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+
+  .main-cntenr {
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fso {
+    margin-top: 3%;
+  }
+}
